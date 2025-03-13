@@ -1,0 +1,30 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// sans-serif mixin
+@mixin font {
+	font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+// bold italic
+@mixin font-italic {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+// bold face
+@mixin font-bold {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+// bold italic
+@mixin font-bold-italic {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+}
+
